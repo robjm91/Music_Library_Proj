@@ -1,3 +1,9 @@
 body {
     background-color: #F5F5DC;
 }
+th {
+    color: royalblue;
+    text-align: inherit;
+    text-transform: capitalize;
+    
+}

@@ -30,7 +30,6 @@ function getMusicLibrary() {
 
 }
 
-getMusicLibrary();
 
 
 
@@ -40,6 +39,8 @@ $(document).ready(function () {
     $("h1").css("color", "red");
     $("h1").css("margin", "auto");
     $("h1").css("text-align", "center");
+    
+getMusicLibrary();
 });
 
 
