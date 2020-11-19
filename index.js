@@ -1,5 +1,11 @@
+$("h1").css("color", "red");
+
+
+
 
 console.log("hey");
+
+/*
 $.ajax({
     url: "http://www.devcodecampmusiclibrary.com/api/music",
     dataType: "json",
@@ -13,6 +19,8 @@ $.ajax({
 });
 
 $("[]")
+
+*/
 
 
 /*
