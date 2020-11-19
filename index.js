@@ -1,10 +1,21 @@
+function getMusicLibrary(){
+    $(document).ready(function() {
+        $.ajax({
+            url: "http://www.devcodecampmusiclibrary.com/api/music#",
+            type: "GET",
+            dataType: "json",
+            success: function(){
+                $(".musicLibrary").html("");
+            }
+        })
+    })
+
+}
 $(document).ready(function() {
     $("h1").css("color", "red");
     $("h1").css("margin", "auto");
     $("h1").css("text-align", "center");
 });
-
-console.log("hey");
 
 /*
 $.ajax({
@@ -19,9 +30,9 @@ $.ajax({
     },
 });
 
-$("[]")
-
 */
+
+
 
 
 /*
